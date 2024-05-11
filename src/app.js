@@ -1,1 +1,5 @@
-console.log("Hello world!");
+const { welcomeMessage } = require("./utils");
+
+console.clear();
+
+welcomeMessage();
